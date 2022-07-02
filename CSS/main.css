@@ -157,7 +157,7 @@ h2 {
 @media (max-width:768px) {
     .header,
     .header.sticky {
-        padding: 20px 35px;
+        padding: 10px 35px;
     }
    
 }
