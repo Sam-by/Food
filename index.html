@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Resturant/CSS/normalize.css">
+    <link rel="stylesheet" href="/Resturant/CSS/all.min.css">
+    <link rel="stylesheet" href="/Resturant/CSS/main.css">
+    <title>Resturant</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Food<span>.</span></a>
+        <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <i class="fas fa-bars" ></i>
+            </label>
+        <ul class="nav">
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#expert">Expert</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="landing" id="banner">
+            <div class="content">
+                <h2>Always Choose Good</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptate tempore mollitia accusamus.</p>
+                <a href="#" class="btn">Click Here</a>
+            </div>
+    </section>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+    </script>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="content">
+                <h3><span>A</span>bout Us</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, explicabo veritatis,
+                     inventore illo ea ab ipsum quos harum excepturi maiores obcaecati alias commodi non nemo 
+                     aliquid ipsam nihil repellendus molestiae Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum ipsa fuga aspernatur et perspiciatis quo accusantium quia voluptatem optio minima, officiis voluptatibus itaque cumque repudiandae ipsam saepe aperiam, quos enim? <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem inventore enim repudiandae harum. Recusandae iusto molestiae id eaque maxime eius corporis, rem, quia aut vel obcaecati magni fugiat sequi fugit! </p>
+            </div>
+            <div class="image">
+                <img src="./images/img1.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <h2>Our <span>M</span>enu</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <div class="container grid">
+            <div class="box">
+                <img src="./images/menu.jpg" alt="Salad">
+                <h3>Special Salad</h3>
+            </div>
+            <div class="box">
+                <img src="./images/menu1.jpg" alt="Salad">
+                <h3>Special Salad</h3>
+            </div>
+            <div class="box">
+                <img src="./images/menu5.jpg" alt="Salad">
+                <h3>Special Soup</h3>
+            </div>
+            <div class="box">
+                <img src="./images/menu3.jpg" alt="Salad">
+                <h3>Special Pasta</h3>
+            </div>
+            <div class="box">
+                <img src="./images/menu4.jpg" alt="Salad">
+                <h3>Special Salad</h3>
+            </div>
+            <div class="box">
+                <img src="./images/menu5.jpg" alt="Salad">
+                <h3>Special Salad</h3>
+            </div>
+        </div>
+        <a class="btn" href="#">View All</a>
+    </section>
+
+    <section class="expert" id="expert">
+        <h2>Our Kinchen <span>E</span>xpert</h2>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <div class="container grid">
+            <div class="box">
+                <img src="./images/expert1.jpg" alt="">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam ullam, laudantium atque rem qui nulla non voluptate delectus modi iure, eaque ipsam nam. Quo, vitae?</p>
+                <h3>Someone Famous</h3>
+            </div>
+            <div class="box">
+                <img src="./images/expert2.jpg" alt="">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam ullam, laudantium atque rem qui nulla non voluptate delectus modi iure, eaque ipsam nam. Quo, vitae?</p>
+                <h3>Someone Famous</h3>
+            </div>
+            <div class="box">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam ullam, laudantium atque rem qui nulla non voluptate delectus modi iure, eaque ipsam nam. Quo, vitae?</p>
+                <img src="./images/expert4.jpg" alt="">
+                <h3>Someone Famous</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <h2>They <span>S</span>aid About Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <div class="container grid">
+            <div class="box">
+                <img src="./images/testi.jpg" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi doloremque ipsum quas repudiandae perferendis fugit cum nobis in quisquam illum? Nostrum harum consequuntur expedita labore cumque! Vitae ratione ex maiores?</p>
+                <span>Someone Famous</span>
+            </div>
+            <div class="box">
+                <img src="./images/testi.jpg" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi doloremque ipsum quas repudiandae perferendis fugit cum nobis in quisquam illum? Nostrum harum consequuntur expedita labore cumque! Vitae ratione ex maiores?</p>
+                <span>Someone Famous</span>
+            </div>
+            <div class="box">
+                <img src="./images/testi.jpg" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi doloremque ipsum quas repudiandae perferendis fugit cum nobis in quisquam illum? Nostrum harum consequuntur expedita labore cumque! Vitae ratione ex maiores?</p>
+                <span>Someone Famous</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2><span>C</span>ontact Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <div class="container">
+            <div class="box">
+                <h3>Send Message</h3>
+                <form action="">
+                    <input type="text" name="text" id="text" placeholder=" Name" maxlength="24" required>
+                    <input type="email" name="email" id="email" placeholder=" Email" required maxlength="35">
+                    <input type="text" name="text" id="message" required placeholder=" Message" max="45">
+                </form>
+                <a href="index.html" class="btn">send</a>
+            </div>
+           
+        </div>
+    </section>
+    <footer class="footer">
+        <hr>
+        <h3>Made by <span>Sam</span></h3>
+        <h3>Copyright&copy; 2020 <span>Online tutorials</span></h3>
+    </footer>
+</body>
+</html>
